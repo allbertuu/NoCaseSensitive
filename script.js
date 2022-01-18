@@ -1,6 +1,6 @@
 // o ID pode ser uma string ou array
 function noCaseSensitive(ID) {
-  var resultado = "";
+  var resultado = '';
   // etapa de verificação (cada caracter)
   for (var i = 0; i < document.getElementById(ID).value.length; i++) {
     // transformar e add na variável resultado
