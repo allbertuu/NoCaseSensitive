@@ -83,6 +83,31 @@ function noCaseSensitive(ID) {
       case "Z":
         resultado += "z";
         break;
+      // caracteres especiais
+      case "Á":
+        resultado += "á";
+        break;
+      case "À":
+        resultado += "à";
+        break;
+      case "Ç":
+        resultado += "ç";
+        break;
+      case "É":
+        resultado += "é";
+        break;
+      case "Í":
+        resultado += "í";
+        break;
+      case "Ó":
+        resultado += "ó";
+        break;
+      case "Ú":
+        resultado += "ú";
+        break;
+      case "Ü":
+        resultado += "ü";
+        break;
       default:
         resultado += document.getElementById(ID).value[i];
         break;

@@ -3,7 +3,11 @@ Com o objetivo de simplificar lógicas que envolvem o comportamento case sensiti
 > Há um arquivo ***index.html*** para observação da funcionalidade do código JavaScript.
 
 ## Observações ❗
-- A etapa de verificação, utilizando loop *for*, é feita em uma **string** ou **array**, visto que a transformação cabe APENAS à caracteres alfabéticos presentes no mesmo.  
+- A etapa de verificação, utilizando loop *for*, é feita em uma **string** ou **array**, visto que a transformação cabe APENAS à caracteres alfabéticos presentes no mesmo. 
+
+## Versões
+- Na v1 há todos os caracteres do alfabeto latino.  
+- Na v2 foi adicionado também caracteres singulares da língua portuguesa e outros idiomas (acentuação etc).  
 
 ## Outras aplicações ⚡
 Embora o código seja feito utilizando DOM para captura do elemento a ser transformado, ainda é bem versátil no que tange a utilização da lógica em outros contextos.  
