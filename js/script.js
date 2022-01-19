@@ -90,17 +90,32 @@ function noCaseSensitive(ID) {
       case "À":
         resultado += "à";
         break;
+      case "Â":
+        resultado += "â";
+        break;
+      case "Ã":
+        resultado += "ã";
+        break;
       case "Ç":
         resultado += "ç";
         break;
       case "É":
         resultado += "é";
+        break;      
+      case "Ê":
+        resultado += "ê";
         break;
       case "Í":
         resultado += "í";
         break;
       case "Ó":
         resultado += "ó";
+        break;      
+      case "Ô":
+        resultado += "ô";
+        break;
+      case "Õ":
+        resultado += "õ";
         break;
       case "Ú":
         resultado += "ú";

@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <script src="./js/script.js"></script>
     <title>No Case Sensitive</title>
-    <script src="./script.js"></script>
   </head>
   
   <body>
-    <input type="text" id="campo" />
-    <button type="button" onclick="noCaseSensitive('campo')">
-      Transformar
-    </button>
-    <input type="text" id="resultado" disabled="disabled" />
+    <!--Demonstração-->
+    <div class="container text-center">
+      <input class="form-control m-1" type="text" id="campo" value="TeXTO de TEste - nÚmeRo 1" />
+      <button class="btn btn-info m-1" type="button" onclick="noCaseSensitive('campo')">
+        Transformar
+      </button>
+      <input class="form-control m-1" type="text" id="resultado" disabled="disabled" />
+    </div>
+
+    <!--outros...-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
   </body>
   
 </html>
