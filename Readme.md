@@ -1,3 +1,5 @@
+> **Nota**: no JavaScript há a função <code>toLowerCase()</code>, a qual faz esse mesmo procedimento, porém **não** altera a string original.  
+> _Projeto feito com o intuito de aprender mais sobre o JavaScript._
 # Sobre
 Com o objetivo de simplificar lógicas que envolvem o comportamento case sensitive do JavaScript, desenvolvi uma função a qual tem por propósito a transformação dos caracteres alfabéticos maiúsculos em minúsculos, uniformizando-os. Dessa forma, facilitando lógicas de comparação, por exemplo.  
 > Há um arquivo ***index.html*** para observação da funcionalidade do código JavaScript. Você pode acessá-lo aqui: https://allbertuu.github.io/NoCaseSensitive/.
