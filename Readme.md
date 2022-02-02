@@ -1,6 +1,6 @@
 # Sobre
 Com o objetivo de simplificar lógicas que envolvem o comportamento case sensitive do JavaScript, desenvolvi uma função a qual tem por propósito a transformação dos caracteres alfabéticos maiúsculos em minúsculos, uniformizando-os. Dessa forma, facilitando lógicas de comparação, por exemplo.  
-> Há um arquivo ***index.html*** para observação da funcionalidade do código JavaScript.
+> Há um arquivo ***index.html*** para observação da funcionalidade do código JavaScript. Você pode acessá-lo aqui: https://allbertuu.github.io/NoCaseSensitive/.
 
 ## Observações ❗
 - A etapa de verificação, utilizando loop *for*, é feita em uma **string** ou **array**, visto que a transformação cabe APENAS à caracteres alfabéticos presentes no mesmo.  
