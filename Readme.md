@@ -24,6 +24,6 @@ Embora o código seja feito utilizando DOM para captura do elemento a ser transf
     - Note que o `default` contém uma lógica muito importante: quando encontrado um caracter diferente de um caracter alfabético, ele prossegue adicionando à variável `resultado`, prevenindo falhas no processo.
         - Se for necessário utilizar a lógica em outro elemento, basta adicionar o mesmo texto utilizado na expressão do *switch* após o `resultado +=` dentro do case `default`.
 5. A utilização do elemento transformado (na variavél `resultado`) depende do seu objetivo, porém deve ser codada ***após*** o loop *for*.
-    > Esta área está sinalizada através de um comentário.
+    > Esta área adequada está sinalizada através de um comentário.
 
 E **voilá!**
